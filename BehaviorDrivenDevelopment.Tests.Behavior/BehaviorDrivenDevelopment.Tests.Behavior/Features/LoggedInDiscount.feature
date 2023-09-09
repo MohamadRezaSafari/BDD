@@ -10,7 +10,7 @@ Scenario: Guest users should pay full price
     Then the basket value is 5 GBP 
     
 
-Scenario: Logged in users is logged in
+Scenario: Logged in users should have a 5% discount
     Given a user that is logged in
     And an empty basket
     When a dress that costs 100 GBP is added to the basket

@@ -17,4 +17,8 @@
     <Folder Include="Steps\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BehaviorDrivenDevelopment.Services\BehaviorDrivenDevelopment.Services.csproj" />
+  </ItemGroup>
+
 </Project>

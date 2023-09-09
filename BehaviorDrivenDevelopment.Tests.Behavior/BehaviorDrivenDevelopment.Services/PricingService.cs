@@ -26,7 +26,12 @@ public class PricingService : IPricingService
 public class Basket
 {
     public User User { get; set; }
-    public List<Product> Products { get; set; }
+    public List<Product> Products { get; set; } = new();
+}
+
+public class User
+{
+    public bool IsLoggedIn { get; set; }
 }
 
 public class Product
